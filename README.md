@@ -40,4 +40,4 @@ except Exception:
     history = model.fit(X_train, y_train, batch_size = 128, epochs=10, shuffle=True, validation_split=0.2, callbacks=[checkpoint])
 ```
 
-Once it's done, put an input and the model will try its best to generate text based on suggestion/best predicted words.
+Once it's done, put an input and the model will try its best to generate text based on suggestion/best predicted words. Even if it's not as accurate as other AIs, I try my best to make one. *Anyways, I did this for my school assignment*
