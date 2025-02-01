@@ -19,3 +19,5 @@ import random
 ```python
 model = load_model("AI_MODEL.keras")
 ```
+
+If you want to train a total different model, you can delete the 'AI_MODEL.keras' and run the 'generative.py' code. It'll automatically trains a new one depending your likings.
