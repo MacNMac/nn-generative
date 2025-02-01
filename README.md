@@ -20,7 +20,7 @@ import random
 model = load_model("AI_MODEL.keras")
 ```
 
-If you want to train a total different model, you can delete the 'AI_MODEL.keras' and run the 'generative.py' code. It'll automatically trains a new one depending your likings.
+If you want to train a total different model, you can delete the 'AI_MODEL.keras' and run the 'generative.py' code. It'll automatically trains a new one depending on your likings.
 ### How to modify:
 You can change these settings such as 'bestPredictedWords', 'batch_size' or the 'LSTM' value
 ```python
@@ -39,3 +39,5 @@ except Exception:
 
     history = model.fit(X_train, y_train, batch_size = 128, epochs=10, shuffle=True, validation_split=0.2, callbacks=[checkpoint])
 ```
+
+Once it's done, put an input and the model will try its best to generate text based on suggestion/best predicted words.
