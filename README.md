@@ -1,4 +1,4 @@
-# nn-generative
+# nn-generative-python
 A trained neural network generative text. Note: it's still not as accurate as other AI does, so this is for educational purposes only. With Tensorflow, numpy, pandas, and nltk. <b>To use the trained model, do the following:</b><br>
 ### Installation:
 ```bash
