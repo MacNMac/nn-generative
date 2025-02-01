@@ -9,5 +9,8 @@ from nltk.tokenize import RegexpTokenizer
 import pandas as pd
 import numpy as np
 import random
+```
+Load the model:
+```python
 model = load_model("AI_MODEL.keras")
 ```
