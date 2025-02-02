@@ -22,9 +22,12 @@ model = load_model("AI_MODEL.keras")
 
 If you want to train a total different model, you can delete the 'AI_MODEL.keras' and run the 'generative.py' code. It'll automatically trains a new one depending on your likings.
 ### How to modify:
-You can change these settings such as 'bestPredictedWords', 'batch_size' or the 'LSTM' value
+You can change these settings such as 'data_train', 'bestPredictedWords', 'batch_size' or the 'LSTM' value
 ```python
 bestPredictedWords = 10
+```
+```python
+data_train = joinedText[:100000]
 ```
 ```python
 try:
